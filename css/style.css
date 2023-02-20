@@ -1,9 +1,9 @@
 .body {
-    background: var(--color-primary1) url(/images/bg-intro-desktop.png);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3em;
+    background: var(--color-primary1) url(/images/bg-intro-desktop.png);
 }
 
 .main-container,
@@ -23,30 +23,29 @@
 }
 
 .offer-box {
+    padding: .7em;
+    text-align: center;
     background-color: var(--color-accent);
     color: white;
     border-radius: .5em;
-    text-align: center;
-    padding: .7em;
     font-size: .8em;
     box-shadow: 0px 5px rgba(0,0,0,0.2);
-    
 }
 
 .form {
     display: grid;
     gap: 1em;
+    padding: 2em;
     border-radius: .5em;
     background-color: white;
-    padding: 2em;
 }
 
 input {
     padding: .9em;
-    border-radius: .3em;
-    border-style: none;
     color: var(--color-neutral2);
     font-weight: bold;
+    border-radius: .3em;
+    border-style: none;
     outline-style: none;
 }
 
@@ -61,24 +60,23 @@ input:focus {
 }
 
 button {
+    text-align: center;
+    padding: .7em;
+    margin-top: 1em;
     background-color: var(--color-primary2);
     color: white;
     font-size: .8em;
     font-weight: bold;
-    
     border-style: none;
     border-radius: .3em;
     box-shadow: 0px 2px rgba(0,0,0,0.4);
-    text-align: center;
-    padding: .7em;
-    margin-top: 1em;
 }
 
 .disclaimer {
+    margin: 0;
     font-size: .5em;
     text-align: center;
     color: var(--color-neutral2);
-    margin: 0;
 }
 
 .disclaimer a{
@@ -86,9 +84,3 @@ button {
     font-weight: bold;
 }
 
-/* Nun principio facer o css para mobil, e logo adaptalo a desktop con media queries: 
-@media (min-width: 400px) {
-    .container {
-        display:flex;
-    }
-}*/
